@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto&display=swap');
+
+body {
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+margin-top: 100px;
+}
+
+.form {
+  background-color: white;
+  width: 40rem;
+  margin: auto;
+  font-family: 'Cutive Mono', monospace;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 30px;
+}
+
+#formGroup {
+  margin: auto;
+  padding: 10px;
+  width: 30rem;
+}
+
+#artist-label {
+  margin-top: 25px;
+}
+
+Button {
+  margin-top: 30px;
+  margin-left: 55px;
+}
+
+
+#artistInfo {
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+  margin: 30px;
+}
+
+#contentContainer {
+  white-space: pre-line;
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 769px) {
+  form {
+    background-color: white;
+    width: 25rem;
+    margin: auto;
+    font-family: 'Cutive Mono', monospace;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+}
