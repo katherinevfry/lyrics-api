@@ -23,3 +23,8 @@ https://kf-react-lyrics.netlify.app
 - sass
 - postman to test api
 - deployed via netlify
+
+### Loom Walkthough
+https://www.loom.com/share/7d43a1f2ffba4c0ab99afbe050c1b346
+
+
